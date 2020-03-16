@@ -1,0 +1,23 @@
+{
+  "name": "eko-luncher",
+  "version": "1.0.0",
+  "description": "",
+  "main": "main.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "dev": "live-server"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/yarivfrd/eko-luncher.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/yarivfrd/eko-luncher/issues"
+  },
+  "homepage": "https://github.com/yarivfrd/eko-luncher#readme",
+  "devDependencies": {
+    "live-server": "^1.2.1"
+  }
+}

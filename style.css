@@ -1,0 +1,74 @@
+
+@font-face {
+    font-family: 'Stolzl-Light';
+    font-display: swap;
+    src: url("https://d1w2zhnqcy4l8f.cloudfront.net/content/helloeko/fonts/Stolzl/30E833_0_0.eot");
+    src: url("https://d1w2zhnqcy4l8f.cloudfront.net/content/helloeko/fonts/Stolzl/30E833_0_0.eot?#iefix") format("embedded-opentype"), url("https://d1w2zhnqcy4l8f.cloudfront.net/content/helloeko/fonts/Stolzl/30E833_0_0.woff2") format("woff2"), url("https://d1w2zhnqcy4l8f.cloudfront.net/content/helloeko/fonts/Stolzl/30E833_0_0.woff") format("woff"), url("https://d1w2zhnqcy4l8f.cloudfront.net/content/helloeko/fonts/Stolzl/30E833_0_0.ttf") format("truetype"); }
+
+  @font-face {
+    font-family: 'Stolzl-Regular';
+    font-display: swap;
+    src: url("https://d1w2zhnqcy4l8f.cloudfront.net/content/helloeko/fonts/Stolzl/30E833_1_0.eot");
+    src: url("https://d1w2zhnqcy4l8f.cloudfront.net/content/helloeko/fonts/Stolzl/30E833_1_0.eot?#iefix") format("embedded-opentype"), url("https://d1w2zhnqcy4l8f.cloudfront.net/content/helloeko/fonts/Stolzl/30E833_1_0.woff2") format("woff2"), url("https://d1w2zhnqcy4l8f.cloudfront.net/content/helloeko/fonts/Stolzl/30E833_1_0.woff") format("woff"), url("https://d1w2zhnqcy4l8f.cloudfront.net/content/helloeko/fonts/Stolzl/30E833_1_0.ttf") format("truetype"); }
+
+  @font-face {
+    font-family: 'Stolzl-Bold';
+    font-display: swap;
+    src: url("https://d1w2zhnqcy4l8f.cloudfront.net/content/helloeko/fonts/Stolzl/30E833_2_0.eot");
+    src: url("https://d1w2zhnqcy4l8f.cloudfront.net/content/helloeko/fonts/Stolzl/30E833_2_0.eot?#iefix") format("embedded-opentype"), url("https://d1w2zhnqcy4l8f.cloudfront.net/content/helloeko/fonts/Stolzl/30E833_2_0.woff2") format("woff2"), url("https://d1w2zhnqcy4l8f.cloudfront.net/content/helloeko/fonts/Stolzl/30E833_2_0.woff") format("woff"), url("https://d1w2zhnqcy4l8f.cloudfront.net/content/helloeko/fonts/Stolzl/30E833_2_0.ttf") format("truetype"); }
+
+* {
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Stolzl-Regular';
+    height: 100vh;
+    margin: 0;
+    display: grid;
+    place-content: center;
+    color: #333;
+}
+
+.container {
+    position: relative;
+    background-color: deepskyblue;
+    border: solid 5px dodgerblue ;
+    padding: 10px;
+    border-radius: 10px;
+}
+
+.lights {
+    position: absolute;
+    top: 0;
+    left: 0;
+    display: flex;
+    align-items: flex-end;
+    justify-content: space-evenly;
+    width: 100%;
+    height: 30px;
+    transform: translate(0, calc(-100% - 5px));
+}
+
+.light {
+    width: 15px;
+    height: 15px;
+    background-color: #eee;
+    border-radius: 50%;
+}
+
+.foodplace-label {
+    border-radius: 5px;
+    text-transform: capitalize;
+    color: lime;
+    background-color: #333;
+    padding: 5px;
+}
+
+button {
+    font-family: inherit;
+    cursor: pointer;
+    border: none;
+    color: white;
+    background-color: tomato;
+}
